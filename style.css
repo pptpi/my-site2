@@ -1,69 +1,73 @@
 body {
-    max-width: 720px;
-    margin: 2rem auto;
-    padding: 0 1rem;
-    line-height: 1;
-    color: black;
-  }
-  
-  body.confess {
-    font-family: Verdana, sans-serif;
-  }
-  
-  body.script {
-    font-family: "Times New Roman", Times, serif;
-  }
-  
-  nav {
-    margin-bottom: 1.5rem;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 0.5rem;
-  }
-  
-  nav a {
-    font-family: Verdana, sans-serif;
-    margin-right: 1rem;
-    text-decoration: none;
-    color: #0645ad;
-  }
-  
-  nav a.current {
-    text-decoration: underline;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
-  
-  a.citation {
-    font-family: "Courier New", Courier, monospace;
-    color: #8B0000;
-    text-decoration: none;
-  }
-  
-  body.script a.citation {
-    font-size: 12pt;
-  }
-  
-  a.citation:hover {
-    text-decoration: underline;
-  }
-  
-  p, ol, h2 {
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-  }
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  line-height: 1;
+  color: black;
+}
 
-  body.confess li {
-    margin-bottom: 1em;
-  }
-  
-  ol {
-    padding-left: 1.5rem;
-  }
-  
-  h2 {
-    margin-top: 1.2rem;
-    font-weight: normal;
-  }
+body.confess {
+  font-family: Verdana, sans-serif;
+}
+
+body.script {
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+nav a {
+  font-family: Verdana, sans-serif;
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #0645ad;
+}
+
+nav a.current {
+  text-decoration: underline;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+a.citation {
+  font-family: "Courier New", Courier, monospace;
+  color: #8B0000;
+  text-decoration: none;
+}
+
+body.script a.citation {
+  font-size: 12pt;
+}
+
+a.citation:hover {
+  text-decoration: underline;
+}
+
+p, ol, h2 {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+body.confess li {
+  margin-bottom: 1em;
+}
+
+ol {
+  padding-left: 1.5rem;
+}
+
+h2 {
+  margin-top: 1.2rem;
+  font-weight: normal;
+}
+
+:target {
+  background-color: #ffebee;
+}
