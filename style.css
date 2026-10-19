@@ -1,0 +1,33 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    max-width: 720px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    line-height: 1.5;
+  }
+  
+  nav {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+  }
+  
+  nav a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #0645ad;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .font-bar {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  h1, h2 {
+    line-height: 1.2;
+  }
